@@ -6,9 +6,9 @@ vetor = []
 for i in range (10):
 
     if (i % 2 == 0 ):
-        valor = 3i+7*(math.factorial(i))
+        valor = 3**i+7*(math.factorial(i))
     else:
-        valor = 2i+4*(math.log(i))
+        valor = 2**i+4*(math.log(i))
 
     vetor.append(valor)
 
